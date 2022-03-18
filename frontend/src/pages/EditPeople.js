@@ -40,7 +40,9 @@ function EditPeople(){
                 setDataAdmissao("");
                 setFuncao("");
                 alert('Funcionario ' + nome + ' atualizado com sucesso!');
-            } 
+            }  else {
+                alert('Erro ao atualizar o funcionario!');
+            }
         } catch (err) {
             console.log(err);
         }

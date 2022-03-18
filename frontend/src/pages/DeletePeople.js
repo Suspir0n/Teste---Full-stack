@@ -19,7 +19,9 @@ function DeletePeople(){
             });
             if (res.status === 200) {
                 alert('Funcionario excluido com sucesso!');
-            } 
+            } else {
+                alert('Erro ao excluir o funcionario!');
+            }
         } catch (err) {
             console.log(err);
         }

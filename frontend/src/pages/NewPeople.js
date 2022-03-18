@@ -35,6 +35,8 @@ function NewPeople(){
                 setDataAdmissao("");
                 setFuncao("");
                 alert('Funcionario ' + nome + ' criado com sucesso!');
+            } else {
+                alert('Erro ao criar um novo funcionario!');
             } 
         } catch (err) {
             console.log(err);
